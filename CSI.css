@@ -322,7 +322,7 @@ body {
 
   @media (max-width:1200px) {
     .nav{
-      height:80px;
+      height:100px;
     }
 
     .nav>.nav-btn {
@@ -376,7 +376,6 @@ body {
       color:#009743;
     }
     
-  
     .nav>#nav-check:not(:checked)~.nav-links {
       height: 0px;
     }
@@ -388,16 +387,6 @@ body {
 
     .nav-title{
       padding: 15px 20px;
-    }
-
-    .nav-logo-desktop{
-      display: none;
-    }
-
-    .nav-logo-mobileview{
-      display: block;
-      height: 50px;
-      margin: 0;
     }
 
     .our-journey{
@@ -419,6 +408,8 @@ body {
   }
 
   @media (max-width:900px){
+
+
     .about-csi{
       width: 100%;
       display: flex;
@@ -473,6 +464,16 @@ body {
   }
 
   @media (max-width:500px){
+    .nav-logo-desktop{
+      display: none;
+    }
+
+    .nav-logo-mobileview{
+      display: block;
+      height: 50px;
+      margin: 10px 0;
+    }
+
     .footer-left{
       height: fit-content;
     }
