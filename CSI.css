@@ -201,15 +201,15 @@ body {
 
   .beachhack-slider {
     background: white;
-    height: 300px;
+    height: 350px;
     margin: auto;
     overflow: hidden;
     position: relative;
   }
   
   .beachhack-slide-track {
-    -webkit-animation: scroll 15s linear infinite;
-            animation: scroll 15s linear infinite;
+    -webkit-animation: scroll 25s linear infinite;
+            animation: scroll 25s linear infinite;
     display: flex;
     gap: 20px;
     width: calc(250px * 14);
@@ -217,7 +217,7 @@ body {
   
   .beachhack-slider-imgs{
       height: 400px;
-      width:640px;
+      width:600px;
   }
 
   .events{
@@ -242,8 +242,8 @@ body {
   }
 
   .events-div > img{
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     object-fit: cover;
   }
 
