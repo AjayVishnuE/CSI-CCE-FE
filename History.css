@@ -17,4 +17,6 @@
 .history-img{
     width: 100%;
     background-color: aliceblue;
+    height: 500px;
+    object-fit: cover;
 }
